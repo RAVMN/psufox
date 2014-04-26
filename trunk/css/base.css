@@ -61,22 +61,6 @@ p {
     font-size: 12px;
 }
 
-#install {
-    display: none;
-}
-
-#install.show-install {
-    display: inline-block;
-}
-
-header.show-install h1 {
-    display: inline-block;
-    width: 55%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
 #main {
     padding: 1rem 1rem 6rem 1rem;
 }
