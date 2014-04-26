@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html manifest="manifest.appcache">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ 	 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 	 ga('create', 'UA-19994080-6', 'ravmn.cl');
+ 	 ga('send', 'pageview');
+	</script>
+    <title>Mi PSU</title>
+</head>
+
+<body>
+    <section class="skin-dark" role="region">
+        <header>
+            <menu type="toolbar"><button id="install"><span class="icon icon-add">añadir</span></button></menu>
+            <h1>Mi PSU</h1>
+        </header>
+    </section>
+
+	<!-- Inicio de Twitter -->
+    <div id="Twitter">
+<div id="twitter" class="pagebody" aria-owns="twitterwindow">
+<div style="text-align: center;">
+<a class="twitter-timeline"  href="https://twitter.com/demre_psu"  data-widget-id="438450661231824896">Tweets por @demre_psu</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+</div>
+</div>
+	<!--  Fin de Twitter -->
+
+	<!-- Inicio de Temario -->
+    <div id="Temario" style="display:none">
+<h4>Aprieta en una prueba para consultar su temario</h4>
+<a id="showlenguaje_id" onclick="document.getElementById('spoilerlenguaje_id').style.display=''; document.getElementById('showlenguaje_id').style.display='none';" class="link"><h2>Lenguaje y comunicación</h2></a><span id="spoilerlenguaje_id" style="display: none"><a onclick="document.getElementById('spoilerlenguaje_id').style.display='none'; document.getElementById('showlenguaje_id').style.display='';" class="link"><h2>Lenguaje y comunicación:</h2></a>
+Consta de 80 preguntas, de las cuales 75 se usan para calcular tu puntaje y 5 para probar nuevos contenidos.<br><br>
+Lengua Castellana:
+	<ul><li>La comunicación dialógica</li>
+    <li>Modalizaciones discursivas</li>
+    <li>Lectura de textos de interacción comunicativa</li>
+    <li>Principios de ortografía y de gramática oracional y textual</li>
+    <li>Recursos paraverbales y no verbales</li>
+    <li>Lectura de textos expositivos</li>
+    <li>Principios de organización del discurso expositivo</li>
+    <li>Lectura de textos argumentativos</li>
+    <li>Principios de organización del discurso argumentativo</li></ul>
+Literatura:
+    <ul><li>*Componentes constitutivos básicos de las obras literarias</li>
+    <li>Comprensión e interpretación de los textos literarios con relación a su contexto histórico</li>
+    <li>Configuración de los mundos literarios</li>
+    <li>Géneros literarios (narrativo, lírico, dramático)</li>
+    <li>Comprensión e interpretación de los mundos literarios con relación a su contexto histórico, social, ideológico</li>
+    <li>Lectura de grandes obras literarias de todos los tiempos</li>
+    <li>Comprensión e interpretación de los mundos literarios y elementos constitutivos de las obras, a fin de descubrir los valores humanos universales y principios estéticos de la literatura clásica</li>
+    <li>Observación de las relaciones de las obras clásicas con sus contextos de producción y recepción</li>
+    <li>Lectura de textos de literatura contemporánea</li>
+    <li>Observación, comprensión e interpretación de los elementos distintivos de la literatura contemporánea en comparación con las obras literarias de otras épocas</li>
+    <li>Observación, comprensión e interpretación de los contextos de producción y recepción de la literatura contemporánea, así como de las manifestaciones culturales de la contemporaneidad presentes en ella (cine, televisión, cómics, etc.)</li></ul>
+Medios de comunicación:
+    <ul><li>La interacción comunicativa en los medios de comunicación</li>
+    <li>Variedad de propósitos de los medios de comunicación en la sociedad</li>
+    <li>Variedad de imágenes de mundo propuestas por los medios de comunicación</li>
+    <li>Relaciones entre el contexto cultural y las imágenes de mundo propuestas por los medios de comunicación</li>
+    <li>Comparación de informaciones y versiones de un mismo hecho en los medios de comunicación</li>
+    <li>Situaciones de interacción comunicativa de tipo argumentativo en los medios de comunicación</li>
+    <li>Características y elementos distintivos de los mensajes contemporáneos en los medios de comunicación</li></ul>
+Para más información, visita <a href="http://demre.cl/temario_lyc_p2014.htm">este</a> enlace.<br><br>
+</span>
+
+<a id="showmatematica_id" onclick="document.getElementById('spoilermatematica_id').style.display=''; document.getElementById('showmatematica_id').style.display='none';" class="link"><h2>Matemática</h2></a><span id="spoilermatematica_id" style="display: none"><a onclick="document.getElementById('spoilermatematica_id').style.display='none'; document.getElementById('showmatematica_id').style.display='';" class="link"><h2>Matemática:</h2></a>
+Consta de 75 preguntas que se usan para calcular tu puntaje.<br><br>
+Números y Proporcionalidad:
+	<ul><li>Distinción entre números racionales e irracionales. Aproximación y estimación de números irracionales. Estimaciones de cálculos, redondeos. Construcción de decimales no periódicos. Distinción entre una aproximación y un número exacto.</li>
+    <li>Análisis de la significación de las cifras en la resolución de problemas. Conocimiento sobre las limitaciones de las calculadoras en relación con truncar y aproximar decimales.</li>
+    <li>Resolución de desafíos y problemas numéricos, tales como cuadrados mágicos o cálculos orientados a la identificación de regularidades numéricas.</li>
+    <li>Potencias de base positiva y exponente entero. Multiplicación de potencias.</li>
+    <li>Noción de variable. Análisis y descripción de fenómenos y situaciones que ilustren la idea de variabilidad. Tablas y gráficos.</li>
+    <li>Proporcionalidad directa e inversa. Constante de proporcionalidad. Gráfico cartesiano asociado a la proporcionalidad directa e inversa (primer cuadrante).</li>
+    <li>Porcentaje. Lectura e interpretación de información científica y publicitaria que involucre porcentaje. Análisis de indicadores económicos y sociales. Planteo y resolución de problemas que perfilen el aspecto multiplicativo del porcentaje. Análisis de la pertinencia de las soluciones.  Relación entre porcentaje, números decimales y fracciones.</li>
+    <li>Planteo y resolución de problemas que involucren proporciones directa e inversa. Análisis de la pertinencia de las soluciones. Construcción de tablas y gráficos asociados a problemas de proporcionalidad directa e inversa. Resolución de ecuaciones con proporciones.</li>
+    <li>Relación entre las tablas, los gráficos y la expresión algebraica de la proporcionalidad directa e inversa. Relación entre la proporcionalidad directa y cuocientes constantes y entre la proporcionalidad inversa y productos constantes.</li></ul>
+Álgebra:
+	<ul><li>Sentido, notación y uso de las letras en el lenguaje algebraico. Expresiones algebraicas no fraccionarias y su operatoria. Múltiplos, factores, divisibilidad. Transformación de expresiones algebraicas por eliminación de paréntesis, por reducción de términos semejantes y por factorización. Cálculo de productos, factorizaciones y productos notables.</li>
+    <li>Análisis de fórmulas de perímetros, áreas y volúmenes en relación con la incidencia de la variación de los elementos lineales y viceversa.</li>
+    <li>Generalización de la operatoria aritmética a través del uso de símbolos. Convención de uso de los paréntesis.</li>
+    <li>Demostración de propiedades asociadas a los conceptos de múltiplos, factores y divisibilidad. Interpretación geométrica de los productos notables.</li>
+    <li>Ecuación de primer grado. Resolución de ecuaciones de primer grado con una incógnita. Planteo y resolución de problemas que involucren ecuaciones de primer grado con una incógnita. Análisis de los datos, las soluciones y su pertinencia.</li>
+    <li>Expresiones algebraicas fraccionarias simples, (con binomios o productos notables en el numerador y en el denominador). Simplificación, multiplicación y adición de expresiones fraccionarias simples.</li>
+    <li>Relación entre la operatoria con fracciones y la operatoria con expresiones  fraccionarias.</li>
+    <li>Resolución de desafíos y problemas no rutinarios que involucren sustitución de variables por dígitos y/o números.</li>
+    <li>Potencias con exponente entero. Multiplicación y división de potencias. Uso de paréntesis.</li>
+    <li>Raíces cuadradas y cúbicas. Raíz de un producto y de un cuociente. Estimación y comparación de fracciones que tengan raíces en el denominador.</li>
+    <li>Sistemas de inecuaciones lineales sencillas con una incógnita. Intervalos en los números reales. Planteo y resolución de sistemas de inecuaciones con una incógnita. Análisis de la existencia y pertinencia de las soluciones. Relación entre las ecuaciones y las inecuaciones lineales.</li></ul>
+Funciones:
+    <ul><li>Representación, análisis y resolución de problemas contextualizados en situaciones como la asignación de precios por tramos de consumo, por ejemplo, de agua, luz, gas, etc. Variables dependientes e independientes. Función parte entera. Gráfico de la función.</li>
+    <li>Ecuación de la recta. Interpretación de la pendiente y del intercepto con el eje de las ordenadas. Condición de paralelismo y de perpendicularidad.</li>
+    <li>Resolución de sistemas de ecuaciones lineales con dos incógnitas. Gráfico de las rectas. Planteo y resolución de problemas y desafíos que involucren sistemas de ecuaciones. Análisis y pertinencia de las soluciones. Relación entre las expresiones gráficas y algebraicas de los sistemas de ecuaciones lineales y sus soluciones.</li>
+    <li>Función valor absoluto; gráfico de esta función. Interpretación del valor absoluto como expresión de distancia en la recta real.</li>
+    <li>Función cuadrática. Gráfico de  esta función. Discusión de los casos de intersección de la parábola con el eje x. Resolución de ecuaciones de segundo grado por completación de cuadrados y su aplicación en la resolución de problemas.</li>
+	<li>Función raíz cuadrada. Gráfico de esta función.</li>
+	<li>Función potencia: y = a × xn, a > 0, para  n = 2, 3 y 4, y su gráfico correspondiente. Análisis del gráfico de la función potencia y su comportamiento para distintos valores de a.</li>
+	<li>Funciones logarítmica y exponencial, sus gráficos correspondientes. Modelación de fenómenos naturales y/o sociales a través de esas funciones. Análisis de las expresiones algebraicas y gráficas de las funciones logarítmica y exponencial.</li>
+	<li>Análisis y comparación de tasas de crecimiento. Crecimiento aritmético y geométrico. Plantear y resolver problemas sencillos que involucren el cálculo de interés compuesto.</li></ul>
+Geometría:
+	<ul><li>Congruencia de dos figuras planas. Criterios de congruencia de triángulos.</li>
+    <li>Resolución de problemas relativos a congruencia de trazos, ángulos y triángulos. Resolución de problemas relativos a polígonos, descomposición en figuras elementales congruentes o puzzles con figuras geométricas.</li>
+    <li>Demostración de propiedades de triángulos, cuadriláteros y circunferencia, relacionadas con congruencia.</li>
+    <li>Traslaciones, simetrías y rotaciones de figuras planas.  Construcción de figuras por traslación, por simetría y por rotación en 60, 90, 120 y 180 grados. Traslación y simetrías de figuras en sistemas de coordenadas.</li>
+    <li>Análisis de la posibilidad de embaldosar el plano con algunos polígonos. Aplicaciones de las transformaciones geométricas en las artes, por ejemplo, M.C. Escher.</li>
+    <li>Clasificación de triángulos y cuadriláteros considerando sus ejes y centros de simetría.</li>
+    <li>Semejanza de figuras planas. Criterios de semejanza. Dibujo a escala en diversos contextos.</li>
+    <li>Teorema de Thales sobre trazos proporcionales.  División interior de un trazo en una razón dada. Planteo y resolución de problemas relativos a trazos proporcionales. Análisis de los datos y de la factibilidad de las soluciones.</li>
+    <li>Teoremas relativos a proporcionalidad de trazos, en triángulos, cuadriláteros y circunferencia, como aplicación del Teorema de Thales. Relación entre paralelismo, semejanza y la proporcionalidad entre trazos. Presencia de la geometría en expresiones artísticas; por ejemplo, la razón áurea.</li>
+    <li>Ángulos del centro y ángulos inscritos en una circunferencia. Teorema que relaciona la medida del ángulo del centro con la del correspondiente ángulo inscrito. Distinción entre hipótesis y tesis. Organización lógica de los argumentos.</li>
+    <li>Demostración de los Teoremas de Euclides relativos a la proporcionalidad en el triángulo rectángulo. Tríos Pitagóricos.</li>
+    <li>Razones trigonométricas en el triángulo rectángulo.</li>
+    <li>Resolución de problemas relativos a cálculos de alturas o distancias inaccesibles que pueden involucrar proporcionalidad en triángulos rectángulos. Análisis y pertinencia de las soluciones.</li>
+    <li>Resolución de problemas sencillos sobre áreas y volúmenes de cuerpos generados por rotación o traslación de figuras planas. Resolución de problemas que plantean diversas relaciones entre cuerpos geométricos; por ejemplo, uno inscrito en otro.</li>
+    <li>Rectas en el espacio, oblicuas y coplanares. Planos en el espacio, determinación por tres puntos no colineales. Planos paralelos, intersección de dos planos. Ángulos diedros, planos perpendiculares, intersección de tres o más planos. Coordenadas cartesianas en el espacio.</li></ul>
+Probabilidad y Estadística:
+	<ul><li>Juegos de azar sencillos; representación y análisis de los resultados; uso de tablas y gráficos.</li>
+    <li>La probabilidad como proporción entre el número de resultados favorables y el número total de resultados posibles, en el caso de experimentos con resultados equiprobables. Sistematización de recuentos por medio de diagramas de árbol.</li>
+    <li>Iteración de experimentos sencillos, por ejemplo, lanzamiento de una moneda; relación con el triángulo de Pascal. Interpretaciones combinatorias.</li>
+    <li>Variable aleatoria: estudio y experimentación en casos concretos. Gráfico de frecuencia de una variable aleatoria a partir de un experimento estadístico.</li>
+    <li>Relación entre la probabilidad y la frecuencia relativa. Ley de los grandes números.</li>
+    <li>Resolución de problemas sencillos que involucren suma o producto de probabilidades. Probabilidad condicionada.</li>
+    <li>Graficación e interpretación de datos estadísticos provenientes de diversos contextos. Crítica del uso de ciertos descriptores utilizados en distintas informaciones.</li>
+    <li>Selección de diversas formas de organizar, presentar y sintetizar un conjunto de datos. Ventajas y desventajas.</li>
+    <li>Muestra al azar, considerando situaciones de la vida cotidiana; por ejemplo, ecología, salud pública, control de calidad, juegos de azar, etc. Inferencias a partir de distintos tipos de muestra.</li></ul>
+Para más información, visita <a href="http://demre.cl/temario_matem_p2014.htm">este</a> enlace.<br><br>
+</span>
+
+<a id="showciencias_id" onclick="document.getElementById('spoilerciencias_id').style.display=''; document.getElementById('showciencias_id').style.display='none';" class="link"><h2>Ciencias</h2></a><span id="spoilerciencias_id" style="display: none"><a onclick="document.getElementById('spoilerciencias_id').style.display='none'; document.getElementById('showciencias_id').style.display='';" class="link"><h2>Ciencias:</h2></a>
+Consta de 80 preguntas, de las cuales 80, se usan para calcular el puntaje. En la modalidad Humanista-Científica consta de 54 del módulo común, con 18 preguntas por área, y 26 del específico del área elegida por el postulante. Y en la modalidad Técnico-Profesional consta de 28 de biología, 26 de física y 26 de química únicamente del módulo común.<br><br>
+<a id="showcienciasBIOcomun_id" onclick="document.getElementById('spoilercienciasBIOcomun_id').style.display=''; document.getElementById('showcienciasBIOcomun_id').style.display='none';" class="link"><h3>Biología común</h3></a><span id="spoilercienciasBIOcomun_id" style="display: none"><a onclick="document.getElementById('spoilercienciasBIOcomun_id').style.display='none'; document.getElementById('showcienciasBIOcomun_id').style.display='';" class="link"><h3>Biología común:</h3></a>
+<p>Organización, estructura y actividad celular</p>
+La célula como unidad funcional:
+	<ul><li>Estructuras y funciones comunes a células animales y vegetales: la membrana plasmática, el citoplasma, las mitocondrias y el núcleo; y las características distintivas de la células vegetales: cloroplastos y pared celular.</li>
+	<li>Mecanismos de intercambio entre la célula y el ambiente (difusión, osmosis y transporte activo).</li>
+	<li>Universalidad de las principales moléculas que componen a las células: propiedades estructurales y funcionales.</li>
+	<li>Distinción de las propiedades emergentes en los niveles de organización: célula, tejido, órgano y sistemas de órganos.</li></ul>
+Material genético y reproducción celular:
+	<ul><li>Cromosomas como estructuras portadoras de los genes: su comportamiento en la mitosis y meiosis.</li>
+	<li>Importancia de la mitosis y su regulación en procesos de crecimiento, desarrollo y cáncer. La meiosis en la gametogénesis y la variabilidad del material genético.</li></ul>
+<p>Procesos y funciones vitales</p>
+Nutrición:
+	<ul><li>Nutrientes esenciales. Alimentos como fuente de energía para las actividades del organismo y materia prima para procesos de crecimiento y reparación de tejidos. Vitaminas y sales minerales.</li>
+	<li>Conceptos de metabolismo: catabolismo y anabolismo.</li>
+	<li>Principios de dietética: Requerimientos nutricionales y recomendaciones en adolescentes sanos, embarazo, lactancia, y distintos niveles de actividad física. Cálculo de peso ideal.</li>
+	<li>Contenido relativo y cálculo del aporte calórico de los distintos componentes en una dieta balanceada.</li>
+	<li>La relación entre el gasto y consumo energético de los estudiantes durante un período determinado.</li></ul>
+Digestión:
+	<ul><li>El proceso de digestión, incluyendo el concepto de alimentos simples y compuestos y el papel de estructuras especializadas; enzimas, jugos digestivos y las sales biliares.</ul>
+	<li>Absorción de las sustancias nutritivas, su incorporación a la circulación y eliminación de desechos.</li></ul>
+Circulación:
+	<ul><li>Función del sistema circulatorio en el transporte de gases, nutrientes y desechos del metabolismo. Composición de la sangre.</li>
+	<li>Actividad cardíaca: ciclo, circulación, ruidos cardíacos, manifestación eléctrica y presión sanguínea.
+Adaptación del organismo al esfuerzo.</li>
+	<li>Relaciones entre estructura y función de los diferentes vasos sanguíneos.</li>
+	<li>Circulación e intercambio de sustancias al nivel capilar.</li></ul>
+Respiración:
+	<ul><li>Estructuras especializadas en el intercambio de gases en plantas y animales. Movimientos respiratorios.</li>
+	<li>Disponibilidad de oxígeno y respiración aeróbica o anaeróbica. Producción de compuestos ricos en energía y sustancias de desecho. Deuda de oxígeno en los músculos durante el ejercicio intenso.</li></ul>
+Excreción:
+	<ul><li>Sistemas de excreción: su función y relación con las sustancias de desecho del metabolismo. Filtración renal.</li></ul>
+Hormonas y sexualidad humana:
+	<ul><li>Formación de gametos, efecto de las hormonas sexuales, ciclo ovárico y fertilización.</li></ul>
+Hormonas, crecimiento y desarrollo:
+	<ul><li>Cambios físicos y hormonales durante la adolescencia.</li>
+	<li>Desarrollo embrionario y fetal incluyendo el papel de la placenta.</li>
+	<li>Cambios hormonales durante el embarazo, parto y lactancia, y la influencia de factores ambientales.</li>
+	<li>Aspectos biológicos favorables de la lactancia materna.</li>
+	<li>Control hormonal del crecimiento y desarrollo en animales y plantas. Aplicaciones comerciales.</li></ul>
+<p>Biología humana y salud</p>
+Enfermedades por consumo:
+	<ul><li>Enfermedades que pueden asociarse a hábitos alimenticios (malnutrición por déficit y exceso), consumo de alcohol y tabaquismo.</li>
+	<li>Efectos de drogas, solventes y otras sustancias químicas en el organismo.</li>
+	<li>Factores que predisponen a patologías frecuentes del sistema cardiovascular.</li></ul>
+Enfermedades:
+	<ul><li>
+Estímulos ambientales (radiación ultravioleta y tabaquismo) que pueden dañar el material genético (mutaciones) y alterar la regulación de la reproducción celular.</li>
+	<li>Uso médico de hormonas en el control y promoción de la fertilidad, el tratamiento de la diabetes, y el desarrollo.</li>
+	<li>Enfermedades de transmisión sexual y sus modos de prevención.</li>
+	<li>Enfermedades hereditarias e implicancias sociales de algunas de ellas (por ejemplo, Síndrome de Down). Concepto de cariotipo.</li></ul>
+<p>Variabilidad y herencia</p>
+Variabilidad:
+	<ul><li>Variabilidad intra especie: formas heredables y no heredables.</li>
+	<li>Sexo como expresión de variabilidad genotípica.</li>
+	<li>Relación genotipo-fenotipo y análisis del concepto de raza.</li>
+	<li>Fuentes de variabilidad genética: reproducción sexual y mutaciones.</li>
+	<li>Generación de clones por reproducción asexuada.</li>
+	<li>Determinación y representación gráfica de la frecuencia de algún carácter variable en una población.</li></ul>
+Herencia:
+	<ul><li>Concepto de gen como unidad funcional de la herencia.</li>
+	<li>Modificaciones de los cromosomas en la reproducción sexual: meiosis, gametogénesis y fertilización.</li>
+	<li>Aplicación de los conceptos de alelos recesivos y dominantes en la selección de un carácter por cruzamiento dirigido.</li>
+	<li>Herencia ligada al sexo.</li></ul>
+<p>Organismo y medio ambiente</p>
+Relaciones alimentarias:
+	<ul><li>Incorporación de materia y energía al mundo orgánico. Formulación de hipótesis, obtención e interpretación de datos cuantitativos sobre factores que pueden afectar la velocidad de fotosíntesis: reactantes y productos.</li>
+	<li>Tramas alimentarias y principios básicos de los ciclos del carbono y del nitrógeno en los ecosistemas.</li>
+	<li>Equilibrio ecológico: Influencia humana, positiva y negativa, en cadenas y tramas alimentarias en distintos ecosistemas.</li></ul>
+Efectos ambientales:
+	<ul><li>Efectos directos e indirectos de la modificación del hábitat por la actividad humana sobre la biodiversidad y el equilibrio del ecosistema: daño y conservación.</li>
+	<li>Principios básicos de biología de la conservación y manejo sustentable de recursos renovables.</li></ul>
+</span>
+<a id="showcienciasQCAcomun_id" onclick="document.getElementById('spoilercienciasQCAcomun_id').style.display=''; document.getElementById('showcienciasQCAcomun_id').style.display='none';" class="link"><h3>Química común</h3></a><span id="spoilercienciasQCAcomun_id" style="display: none"><a onclick="document.getElementById('spoilercienciasQCAcomun_id').style.display='none'; document.getElementById('showcienciasQCAcomun_id').style.display='';" class="link"><h3>Química común:</h3></a>
+<p>El agua</p>
+	<ul><li>Relación entre el grado de pureza y los usos del agua; evaporación y destilación de mezclas líquidas; agua destilada.</li>
+	<li>Procesos naturales y artificiales de purificación, recuperación y contaminación del agua.</li>
+	<li>Cambios químicos ocurridos en la reacción de descomposición de agua, a partir de medidas de los volúmenes de los gases obtenidos.</li></ul>
+<p>El aire</p>
+	<ul><li>Composición del aire.</li>
+	<li>Compresibilidad y difusión de los gases y su explicación a partir de la teoría cinético molecular de la materia.</li>
+	<li>Efectos sobre el ecosistema de los componentes químicos de las emanaciones gaseosas de los volcanes y géiseres.</li>
+	<li>Variación estacional de la composición y calidad del aire.</li>
+	<li>Interpretación química de las causas del adelgazamiento de la capa ozono, de la lluvia ácida y del efecto invernadero.</li></ul>
+<p>El petróleo</p>
+	<ul><li>Los orígenes del petróleo; nombres comerciales y usos de los productos de su destilación; octanaje de la gasolina. Ventajas y desventajas del uso del gas natural como fuente de energía.</li>
+	<li>Los combustibles comerciales derivados del petróleo son mezclas de compuestos químicos.</li>
+	<li>Producción, consumo y reservas a nivel nacional y mundial; necesidad de sustitutos.</li></ul>
+<p>Los suelos</p>
+	<ul><li>Clasificación experimental de los suelos según sus propiedades.</li>
+	<li>Conservación de los suelos; prevención de su contaminación.</li>
+	<li>Mineralogía: cristales; minerales metálicos y no metálicos; minerales primarios y secundarios; distribución geográfica de los minerales en Chile.</li>
+	<li>El cobre en Chile: pureza, usos y perspectivas; composición química y características físicas de sus minerales; otros productos resultantes de la extracción del cobre, especialmente el molibdeno.</li></ul>
+<p>Los procesos químicos</p>
+	<ul><li>Procesos de obtención de materiales químicos comerciales.</li>
+	<li>Etapas de los procesos de obtención de materiales químicos; dependencia del valor comercial y el grado de pureza.</li>
+	<li>Contribución de los grandes procesos industriales químicos al desarrollo económico de Chile.</li>
+	<li>Conservación de recursos materiales y energéticos de la Tierra.</li></ul>
+<p>Los materiales</p>
+	<ul><li>Clasificación de materiales según: conductividad térmica, conductividad eléctrica, inflamabilidad, rigidez, dureza, color y reactividad química frente a diversos agentes.</li>
+	<li>Fundamentación de la reversibilidad de cambios químicos y físicos de los materiales.</li>
+	<li>Técnicas de separación de materiales: tamizado, filtrado, cromatografiado y destilado.</li></ul>
+<p>Modelo atómico de la materia</p>
+	<ul><li>Constituyentes del átomo; modelos atómicos precursores del modelo actual; modelo atómico de la materia: orbital atómico, número atómico, configuración electrónica.</li>
+	<li>Descripción cualitativa de las propiedades del electrón: carga, masa y espín.</li>
+	<li>El átomo; variedad; abundancia relativa de las distintas especies en el universo. Sus dimensiones comparadas con la materia macroscópica.</li>
+	<li>Tabla periódica y propiedades periódicas de los elementos: volumen y radio atómico, energía de ionización, afinidad electrónica y electronegatividad.</li>
+	<li>Propiedades periódicas macroscópicas: punto de fusión, punto de ebullición, reactividad química.</li></ul>
+<p>El enlace químico</p>
+	<ul><li>Fundamentación de la Teoría del Enlace de Valencia; energía de enlace.</li>
+	<li>Enlaces iónicos, covalentes y de coordinación.</li>
+	<li>Longitud y ángulo de enlace, isomería.</li>
+	<li>Estructura tridimensional de compuestos iónicos y covalentes.</li></ul>
+<p>Química orgánica</p>
+	<ul><li>Caracterización de los grupos funcionales; introducción a la nomenclatura de compuestos orgánicos.</li>
+	<li>Estructura tridimensional, de algunas moléculas y macromoléculas orgánicas, con distintos grupos funcionales y diferentes usos en la vida diaria; estereoquímica.</li>
+	<li>Aspectos estequiométricos y energéticos de reacciones de oxidación de moléculas de proteínas, azúcares y grasas; de pirólisis de moléculas constituyentes del petróleo.</li></ul>
+<p>Disoluciones químicas</p>
+	<ul><li>Concepto de Mol; solubilidad; realización de cálculos estequiométricos.</li>
+	<li>Concepto de acidez y de pH; comportamiento de disoluciones amortiguadoras del pH.</li>
+	<li>Propiedades coligativas y usos en el contexto cotidiano.</li></ul>
+</span>
+<a id="showcienciasFIScomun_id" onclick="document.getElementById('spoilercienciasFIScomun_id').style.display=''; document.getElementById('showcienciasFIScomun_id').style.display='none';" class="link"><h3>Física común</h3></a><span id="spoilercienciasFIScomun_id" style="display: none"><a onclick="document.getElementById('spoilercienciasFIScomun_id').style.display='none'; document.getElementById('showcienciasFIScomun_id').style.display='';" class="link"><h3>Física común:</h3></a>
+<p>El sonido</p>
+Vibración y sonido:
+	<ul><li>Objetos en vibración: cuerdas, láminas, cavidades, superficie del agua. Relación entre frecuencia de la vibración y altura del sonido. Relación entre amplitud de la vibración e intensidad del sonido.</li>
+	<li>Propiedades de reflexión, transmisión y absorción del sonido en diferentes medios como la madera, la piedra, la tela, etc.</li>
+	<li>Fisiología del oído en relación con la audición. Rangos de audición: el decibel.</li></ul>
+Ondas y sonido:
+	<ul><li>La cuerda vibrante. Relación entre longitud y tensión con su frecuencia. Resonancia.</li>
+	<li>Ondas longitudinales, transversales, estacionarias y viajeras. Longitud de onda y su relación con la frecuencia y velocidad de propagación. Efecto Doppler en situaciones de la vida diaria y su explicación cualitativa en términos de la propagación de ondas.</li>
+	<li>El espectro sonoro: infrasonido, sonido y ultrasonido. Aplicaciones del ultrasonido en medicina y otros ámbitos.
+</li></ul>
+Composición del sonido:
+	<ul><li>Relación entre superposición de ondas y timbre de un sonido. Pulsaciones entre dos tonos de frecuencia similar.</li></ul>
+<p>La luz</p>
+Propagación de la luz:
+	<ul><li>Reflexión, transmisión y absorción de la luz. Distinción entre la propagación de una onda en un medio (sonido) y en el vacío (luz). Hipótesis corpuscular y ondulatoria para explicar estos fenómenos.</li>
+	<li>Derivación geométrica de la ley de reflexión a partir del principio de Fermat. Distinción cualitativa del comportamiento de la luz reflejada por espejos convergentes y divergentes. Espejos parabólicos.</li>
+	<li>Lentes convergentes y divergentes. La óptica del ojo humano. Defectos de la visión y su corrección mediante diversos tipos de lentes. El telescopio.</li></ul>
+Naturaleza de la luz:
+	<ul><li>Descomposición de la luz blanca en un prisma. El arco iris.</li>
+	<li>La luz como una onda, difracción en bordes y fenómenos de interferencia.</li>
+	<li>Luz visible, radiación infrarroja y ultravioleta, rayos X, microondas, ondas de radio. El radar. El rayo láser como fuente de luz coherente y monocromática.</li>
+	<li>La luz como una forma de energía. Espectro de radiación del Sol y su carácter de principal fuente de energía para la vida en la Tierra.</li></ul>
+<p>La electricidad</p>
+Carga eléctrica:
+	<ul><li>La electricidad en el entorno: la casa, el pueblo y la ciudad.</li>
+	<li>Carga eléctrica: separación de cargas por fricción. Atracción y repulsión entre cargas.</li></ul>
+Corriente eléctrica:
+	<ul><li>La electricidad como un flujo de carga eléctrica, usualmente electrones. Corriente continua y corriente alterna.</li>
+	<li>Relación entre resistencia, voltaje e intensidad de corriente.  Su representación gráfica y expresión matemática. Resistencia eléctrica. Discusión elemental acerca de su origen en metales, sobre la base de una descripción elemental de su estructura atómica.</li>
+	<li>Componentes y funciones de la instalación eléctrica doméstica: alambres, aislantes, conexión a tierra, fusibles, interruptores, enchufes.</li></ul>
+Magnetismo y fuerza magnética:
+	<ul><li>Magnetismo natural. La electricidad como fuente de magnetismo. Campo magnético.</li>
+	<li>Fuerza magnética sobre un conductor que porte corriente eléctrica: El motor eléctrico de corriente continua.</li>
+	<li>Movimiento relativo entre una espira y un imán: el generador eléctrico.</li></ul>
+Energía eléctrica:
+	<ul><li>Potencia eléctrica en los utensilios domésticos. Relación elemental entre corriente, potencia y voltaje en situaciones como el cálculo del consumo doméstico de energía eléctrica.</li>
+	<li>Generación de energía eléctrica por métodos hidráulicos, térmicos, eólicos, químicos y fotoeléctricos.</li></ul>
+<p>El movimiento</p>
+Descripción del movimiento:
+	<ul><li>Caracterización y análisis de movimientos rectilíneos. Conceptos de desplazamiento, velocidad y aceleración, en su aspecto intuitivo y su formulación gráfica y analítica.</li>
+	<li>Sistemas de referencia. El movimiento relativo. El rol de Galileo Galilei en la formulación de estos conceptos.</li></ul>
+Fuerza y movimiento:
+	<ul><li>El concepto de fuerza que actúa sobre un objeto. Fuerza de acción y fuerza de reacción. Principio de inercia.</li>
+	<li>Relación entre fuerza que actúa sobre un móvil y su aceleración. Concepto de masa inercial. Uso de la notación         científica.</li>
+	<li>Momentum lineal y su conservación.</li>
+	<li>Fuerza de gravedad cerca de la superficie de la Tierra. Cálculo del itinerario de un objeto en movimiento vertical.        Carácter predictivo de las leyes de la dinámica.</li>
+	<li>El roce. Roce estático y roce dinámico. Efecto del pulimento o lubricación de las superficies de contacto.</li>
+	<li>Torque y rotación.</li></ul>
+Energía mecánica:
+	<ul><li>Trabajo mecánico a partir de la fuerza aplicada. Potencia mecánica.</li>
+	<li>Trabajo y energía potencial debida a la fuerza de gravedad cerca de la superficie de la Tierra. Energía cinética. Conservación de la energía mecánica en ausencia del roce.</li></ul>
+<p>El calor</p>
+La temperatura:
+	<ul><li>Equilibrio térmico. Termómetros y escalas de temperatura. Escalas de Kelvin y de Celsius.</li>
+	<li>Dilatación de la materia con el aumento de la temperatura. El caso contrario del agua.</li></ul>
+Materiales y calor:
+	<ul><li>El calor como una forma de energía. Calor específico y distinción de esta propiedad en diversos materiales como el agua, el cobre, etc.</li>
+	<li>Transmisión de calor a través de un objeto y su relación con diferencia de temperatura. Conductividad térmica.</li>
+	<li>Fases en que se encuentra la materia: Temperaturas de fusión y vaporización. Influencia del calor en los cambios de fase. El calor como movimiento de átomos en las diferentes fases.</li>
+	<li>Roce y calor. Sensibilidad térmica de la piel.</li></ul>
+Conservación de la energía:
+	<ul><li>La transformación de energía mecánica en calor. Unidades y sus equivalencias: la caloría y el Joule.</li>
+	<li>Conservación de la energía y sus transformaciones.</li></ul>
+<p>La tierra y su entorno</p>
+La tierra:
+	<ul><li>Tamaño, masa y composición de la Tierra. Nociones elementales acerca de su origen: enfriamiento, conformación de los océanos y continentes, las grandes cadenas montañosas.</li>
+	<li>El dinamismo del planeta: los sismos, las erupciones volcánicas, cambios en el relieve. Escalas de Richter y Mercalli.
+	<li>Características de la Tierra que posibilitan la existencia de la vida.</li></ul>
+El sistema solar:
+	<ul><li>El sistema solar. La atracción gravitatoria y las órbitas de planetas y cometas. Comparación entre sus diámetros, masas y órbitas. El universo geocéntrico de la antigüedad y la transformación de esta visión en el Renacimiento.</li>
+	<li>Los movimientos de la Tierra: día y noche, el año, las estaciones. Explicación elemental de las mareas sobre la Tierra.</li>
+	<li>La luna. Su tamaño, sus movimientos y fases. La atracción gravitatoria en su superficie. Los eclipses.</li>
+	<li>La teoría de gravitación de Isaac Newton.</li></ul>
+El universo:
+	<ul><li>Las estrellas y su evolución. Propiedades descriptivas del Sol.</li>
+	<li>La vía láctea y la situación del sistema solar en ella. Tipos de galaxias y estructura en gran escala del Universo.</li>
+	<li>Concepciones antiguas y modernas acerca de la evolución del Universo. Las incógnitas del presente. Influencia de los descubrimientos de la física en la cultura.</li>
+	<li>La exploración espacial: observaciones astronómicas y vuelos espaciales. Los observatorios en Chile.</li></ul>
+</span>
+<a id="showcienciasBIOelectivo_id" onclick="document.getElementById('spoilercienciasBIOelectivo_id').style.display=''; document.getElementById('showcienciasBIOelectivo_id').style.display='none';" class="link"><h3>Biología electivo</h3></a><span id="spoilercienciasBIOelectivo_id" style="display: none"><a onclick="document.getElementById('spoilercienciasBIOelectivo_id').style.display='none'; document.getElementById('showcienciasBIOelectivo_id').style.display='';" class="link"><h3>Biología electivo:</h3></a>
+<p>Organización, estructura y actividad celular</p>
+Adaptación a nivel celular:
+	<ul><li>Relación estructura y función: identificación de diferenciaciones y estructuras especializadas en diversas células, incluyendo organismos unicelulares.</li></ul>
+Genoma, genes e ingeniería genética:
+	<ul><li>La relación entre estructura y función de proteínas: enzimas y proteínas estructurales como expresión de la información genética. Mutaciones, proteínas y enfermedad.</li>
+	<li>Experimentos que identificaron al ADN como material genético. El modelo de la doble hebra del ADN de Watson y Crick y su relevancia en la replicación y transcripción del material genético.</li>
+	<li>Código genético. Su universalidad como evidencia de la evolución a partir de ancestros comunes.</li>
+	<li>Traducción del mensaje de los genes mediante el flujo de la información genética: del gen a la síntesis de proteínas.</li>
+	<li>Significado e importancia de descifrar el genoma humano: perspectivas biológicas y médicas.</li>
+	<li>Principios básicos de ingeniería genética y sus aplicaciones productivas.</li></ul>
+Bacterias y virus:
+	<ul><li>Estructura y propiedades biológicas de bacterias y virus como agentes patógenos y como herramientas esenciales para manipular material genético en biotecnología.</li></ul>
+<p>Procesos y funciones vitales</p>
+Regulación de las funciones corporales y homeostasis:
+	<ul><li>Control hormonal y nervioso en la coordinación e integración de los sistemas.</li>
+	<li>Concepto y fundamentos de la homeostasis, distinguiendo los órganos, sistemas y procesos regulatorios involucrados. Formación de orina: el nefrón como unidad funcional.</li></ul>
+El sistema nervioso:
+	<ul><li>La variedad de estímulos que excitan el sistema nervioso, sus receptores y su importancia relativa en distintos organismos.</li>
+	<li>Estructura de la neurona, conectividad, organización y función del sistema nervioso en la regulación y coordinación de las funciones sistémicas, la motricidad y el comportamiento.</li>
+	<li>Naturaleza electroquímica del impulso nervioso y su forma de transmisión entre neuronas y entre neuronas y músculo (señales químicas y sinapsis).</li>
+	<li>Estructura y función del ojo: propiedades ópticas, respuesta a la luz, y anomalías de la visión.</li></ul>
+Sistema muscular y respuesta motora:
+	<ul><li>Sistema muscular (esquelético, liso y cardíaco) y su conexión funcional con distintas partes del sistema nervioso. Actividad refleja y motricidad voluntaria.</li>
+	<li>Estructura del tórax y mecanismo de ventilación pulmonar.</li>
+	<li>Control de la frecuencia respiratoria.</li></ul>
+Sistemas de defensa:
+	<ul><li>Propiedades y componentes del sistema inmune innato (inespecífico) y adaptativo (específico).</li>
+	<li>Vacunas en la historia de la inmunología.</li>
+	<li>Origen y función de los componentes de la sangre, importantes en la defensa adaptativa (específica) contra bacterias y virus, incluyendo los anticuerpos como proteínas con función defensiva.</li>
+	<li>La respuesta inmune: memoria y especificidad. Selección clonal. Tolerancia inmunológica.</li></ul>
+<p>Biología humana y salud</p>
+Higiene nerviosa:
+    <ul><li>Aspectos biológicos de la adicción a las drogas que afectan el comportamiento y los estados de ánimo.</li>
+	<li>Estrés nervioso, consecuencias físicas, causas y prevención.</li></ul>
+Sangre:
+	<ul><li>Grupos Sanguíneos: compatibilidad en el embarazo y las transfusiones.</li>
+	<li>Alteraciones de los mecanismos defensivos por factores ambientales y enfermedades, incluyendo autoinmunidad, alergias y transplantes.</li>
+	<li>Uso médico de la inmunización artificial: tipos de vacunas y su impacto en la salud.</li>
+	<li>Problemas biológicos contemporáneos. Aspectos biológicos.</li></ul>
+<p>Variabilidad y evolución</p>
+Evolución:
+	<ul><li>Registro fósil como evidencia de la evolución orgánica. Distinción entre hechos y teorías.</li>
+	<li>Variabilidad como materia prima de los cambios evolutivos y su importancia en la sobrevivencia de la especie.</li>
+	<li>La biodiversidad como producto del proceso evolutivo.</li>
+	<li>Selección natural en la evolución y extinción de especies. Innovaciones y formas intermedias.</li>
+	<li>Éxito reproductivo como resultado de la competencia en el ambiente.</li>
+	<li>Teoría de la Selección Natural de Darwin y contraste con otras teorías evolutivas.</li></ul>
+<p>Organismo y ambiente</p>
+Adaptación:
+	<ul><li>Adaptaciones que permiten a plantas y animales sobrevivir en distintos ambientes.</li>
+	<li>Respuestas adaptativas a los cambios ambientales, diarios y estacionales.</li>
+	<li>Adaptación en tiempo evolutivo: historia de la aparición de los grupos mayores de organismos.</li>
+	<li>Continuar con punto 3 de tercero y cuarto medio</li></ul>
+Interacciones entre organismos:
+	<ul><li>Depredación y competencia como determinantes de la distribución y abundancia relativa de organismos en un hábitat.</li>
+	<li>El hombre como un organismo fuertemente interactuante en el mundo biológico: sobreexplotación y contaminación.</li>
+	<li>Efectos de la actividad humana en los ecosistemas.</li></ul>
+Poblaciones y comunidades:
+	<ul><li>Atributos básicos de las poblaciones y las comunidades; factores que condicionan su distribución, tamaño y límite al crecimiento.</li>
+	<li>Tipos de curvas de crecimiento poblacional.</li>
+	<li>Sucesión ecológica como expresión de la dinámica de la comunidad.</li></ul>
+<p>Ecología y sociedad</p>
+	<ul><li>La diversidad biológica y su rol en los ecosistemas.</li>
+	<li>La problemática ambiental, los aspectos básicos para evaluarla y su carácter multidisciplinario y multisectorial.</li>
+	<li>El problema del crecimiento poblacional humano en relación con las tasas de consumo y los niveles de vida.</li></ul>
+</span>
+<a id="showcienciasQCAelectivo_id" onclick="document.getElementById('spoilercienciasQCAelectivo_id').style.display=''; document.getElementById('showcienciasQCAelectivo_id').style.display='none';" class="link"><h3>Química electivo</h3></a><span id="spoilercienciasQCAelectivo_id" style="display: none"><a onclick="document.getElementById('spoilercienciasQCAelectivo_id').style.display='none'; document.getElementById('showcienciasQCAelectivo_id').style.display='';" class="link"><h3>Química electivo:</h3></a>
+<p>Reactividad y equilibrio químico</p>
+	<ul><li>Propiedades termodinámicas asociadas a la reactividad y al equilibrio químico; espontaneidad, energía libre y entropía; entalpía de reacciones exotérmicas y endotérmicas; estequiometría.</li>
+	<li>Reacciones de oxidación y de reducción; estado de oxidación; balanceo de ecuaciones redox; nociones de electroquímica.</li>
+	<li>Reacciones ácido base; titulación; cálculos de pH.</li></ul>
+<p>Cinética</p>
+	<ul><li>La velocidad de una reacción simple, orden de reacción; constante de velocidad. Energía de Activación.</li>
+	<li>Introducción a los mecanismos de reacción; reacciones químicas reversibles y equilibrio químico.</li>
+	<li>Composición química y propiedades de los catalizadores.</li></ul>
+<p>Reactividad en química orgánica</p>
+	<ul><li>Reacciones químicas de compuestos orgánicos: grupos funcionales y reactividad; efectos electrónicos y estéricos.</li></ul>
+<p>Fenómenos nucleares y sus aplicaciones</p>
+	<ul><li>Isótopos y estabilidad nuclear. Radiactividad natural y cinética de desintegración. Concepto de vida media y de serie radiactiva. Datación de objetos de interés arqueológico e histórico.</li>
+	<li>Fisión y fusión nuclear. La bomba atómica y los reactores nucleares. El impacto de las tecnologías nucleares sobre la vida del ser humano, en particular sus consecuencias éticas, sociales y psicológicas. Ventajas, beneficios, peligros y amenazas de la utilización de las tecnologías nucleares en diversos ámbitos.</li>
+	<li>Aplicación de los isótopos y de la radiación a la medicina, agricultura e investigación química y bioquímica. Efectos de la radiación sobre los seres vivos.</li></ul>
+<p>Polímeros orgánicos e inorgánicos - sintéticos y naturales</p>
+	<ul><li>Concepto de polímero. Formación de polímeros de adición. Descubrimiento y aplicaciones comerciales de algunos polímeros. Caucho sintético y natural. Vulcanización.</li>
+	<li>Composición de péptidos: aminoácidos esenciales. Estructura y propiedades de péptidos y polipéptidos. Niveles de organización de proteínas. Importancia de la estructura de las proteínas en relación con su función biológica. Desnaturalización de proteínas. Clasificación de proteínas. Estructura simplificada y replicación de ácidos desoxirribonucleicos.</li></ul>
+<p>Procesos químicos industriales</p>
+	<ul><li>Fuentes de materias primas en la hidrosfera, litosfera y biosfera para algunos procesos industriales.</li>
+	<li>Procesos de obtención de los metales cobre, hierro y litio y de los no metales yodo y azufre, a partir de sus minerales. Proceso de obtención de ácido sulfúrico.</li>
+	<li>Aspectos estequiométricos, termodinámicos y cinéticos de estos procesos. Purificación de los metales hierro y cobre. Aceros.</li>
+	<li>Procesos industriales de algunos materiales de uso masivo:<br>
+		&nbsp&nbsp*Materias primas principales y los procesos básicos de obtención del vidrio, cemento y cerámica.<br>
+		&nbsp&nbsp*Fabricación de polímeros sintéticos: polietileno, nailon y siliconas.<br>
+		&nbsp&nbsp*Aspectos elementales de la cinética de estas reacciones. Uso de catalizadores.</li></ul>
+</span>
+<a id="showcienciasFISelectivo_id" onclick="document.getElementById('spoilercienciasFISelectivo_id').style.display=''; document.getElementById('showcienciasFISelectivo_id').style.display='none';" class="link"><h3>Física electivo</h3></a><span id="spoilercienciasFISelectivo_id" style="display: none"><a onclick="document.getElementById('spoilercienciasFISelectivo_id').style.display='none'; document.getElementById('showcienciasFISelectivo_id').style.display='';" class="link"><h3>Física electivo:</h3></a>
+<p>Mecánica</p>
+Movimiento circular:
+	<ul><li>Movimiento circular uniforme. Velocidad lineal y velocidad angular. Concepto vectorial de la velocidad. Rapidez constante y velocidad variable en el movimiento circular. Aceleración centrípeta.</li>
+	<li>Movimiento circular y fuerza centrípeta.</li>
+	<li>Momento angular y su conservación.</li></ul>
+Conservación de la energía mecánica:
+	<ul><li>La independencia del tiempo, de la energía mecánica en la caída libre sobre la superficie de la Tierra.</li>
+	<li>Representación gráfica y discusión de la Energía potencial gravitacional en una montaña rusa. Deducción del valor de la  energía cinética en este movimiento Puntos de equilibrio estable e inestable. Puntos de retorno.</li>
+	<li>Disipación de energía y roce. Coeficientes de roce estático y dinámico. Magnitud y dirección de la fuerza de roce en cada caso. Dependencia con respecto a la fuerza normal y la superficie de contacto.</li>
+	<li>Aplicaciones cuantitativas a situaciones de la vida diaria.</li></ul>
+<p>Fluidos</p>
+Hidrostática:
+	<ul><li>Distinción entre fluidos y sólidos rígidos. Descripción elemental en términos del movimiento de los átomos o moléculas que los componen.</li>
+	<li>La presión en fluidos. Presión a distintas profundidades de un líquido. Aplicaciones cotidianas. La presión sanguínea.</li>
+	<li>El principio de Arquímedes. Flotabilidad de un objeto.</li>
+	<li>Capilaridad y su importancia en el mundo vegetal y animal.</li></ul>
+Hidrodinámica:
+	<ul><li>Expresión de Daniel Bernouilli para la conservación de la energía en un fluido. Roce y velocidad terminal.</li></ul>
+<p>Electricidad y magnetismo</p>
+Fuerza entre cargas:
+	<ul><li>Cargas en reposo. Fuerza de Coulomb, campo y potencial eléctrico.</li>
+	<li>El condensador de placas paralelas. Su capacidad en términos de la geometría y el dieléctrico.</li>
+	<li>Cargas en movimiento. Trayectoria de una carga en un campo eléctrico constante y uniforme.</li>
+	<li>Fuerza magnética sobre una carga en movimiento. Fuerza entre dos conductores rectilíneos que portan corriente. Descripción de la trayectoria de una carga en un campo magnético homogéneo. </li></ul>
+Circuito de corriente alterna:
+	<ul><li>Carga y descarga de un condensador. Dependencia temporal del voltaje entre las placas.</li>
+	<li>Corriente inducida por el movimiento relativo entre una espira y un imán. Inducción electromagnética: leyes de Michael Faraday y Heinrich Lenz. Inductancia y su efecto cualitativo en un circuito de corriente variable en el tiempo.</li>
+	<li>Circuito L.C. Frecuencia propia asociada. Movimiento armónico simple. Oscilaciones forzadas y resonancia. Efecto de una resistencia. Aplicaciones en la sintonización de frecuencias.</li></ul>
+Ondas electromagnéticas:
+	<ul><li>Campos eléctricos y magnéticos que varían sinusoidalmente en el tiempo. Radiación de cargas aceleradas.</li>
+	<li>Transmisión y recepción de ondas electromagnéticas. Funcionamiento de antenas simples y sus aplicaciones en telecomunicaciones.</li></ul>
+<p>Mundo atómico</p>
+El átomo:
+	<ul><li>Constituyentes del átomo. Experimento de Ernest Rutherford. Análisis mecánico del modelo de Niels Bohr para el átomo de hidrógeno.</li>
+	<li>El principio de incertidumbre. El mundo atómico y el ámbito macroscópico. Abandono del concepto clásico de trayectoria y sus consecuencias en la descripción del movimiento.</li></ul>
+El núcleo atómico:
+	<ul><li>Dimensiones del núcleo en relación al átomo. Protones y neutrones. Su masa, carga eléctrica y spin. Isótopos.</li>
+	<li>Decaimiento radiactivo. Vida media. Radiactividad natural. Aplicaciones en medicina, geología y arqueología.</li>
+	<li>El núcleo atómico como fuente de energía. Relación entre masa y energía. Aplicaciones en fenómenos como el decaimiento del neutrón, la fisión y la  fusión nuclear.</li>
+	<li>Fuerzas nucleares. Nociones elementales acerca de cómo se mantiene unido el núcleo. Comparación de la magnitud relativa de las fuerzas fundamentales de la naturaleza.</li></ul>
+</span>
+Para más información, visita <a href="http://demre.cl/temario_ciencias_p2014.htm">este</a> enlace.<br><br>
+</span>
+
+<a id="showhistoria_id" onclick="document.getElementById('spoilerhistoria_id').style.display=''; document.getElementById('showhistoria_id').style.display='none';" class="link"><h2>Historia</h2></a><span id="spoilerhistoria_id" style="display: none"><a onclick="document.getElementById('spoilerhistoria_id').style.display='none'; document.getElementById('showhistoria_id').style.display='';" class="link"><h2>Historia:</h2></a>
+<li>Consta de 80 preguntas, de las cuales 75 se usan para calcular el puntaje y 5 para probar nuevos contenidos</li>
+<p>El espacio geográfico nacional, continental y mundial</p>
+Entorno natural y comunidad regional:
+	<ul><li>Características de la geografía física de la región en la cual está inserto el establecimiento escolar. Potencialidades y limitaciones del entorno natural regional. Principales riesgos naturales: causas y acciones apropiadas a seguir frente a ellos.</li>
+	<li>Geografía humana de la región: la población y su distribución. Dinámica poblacional.</li>
+	<li>Características de la economía regional: recursos naturales, actividades económicas, producción e intercambio, distribución del ingreso y empleo.</li>
+	<li>Principales problemas ambientales en la región. La importancia de la preservación del medio ambiente.</li>
+	<li>Expresiones de diversidad cultural en la región: similitudes y diferencias de costumbres de las personas del campo y la ciudad, de diferentes credos religiosos y de distintos grupos étnicos. Las diferencias culturales como expresión legítima de visiones del mundo distintivas y cuestionamiento de estereotipos y prejuicios sociales: de género, edad, condición física, etnia, religión y situación económica.</li></ul>
+Organización Regional:
+	<ul><li>El sistema urbano/rural. La ciudad como fenómeno social y económico. Las funciones urbanas y las relaciones con el espacio rural circundante. La ciudad: sitio, uso del suelo, barrios y sus relaciones con el espacio rural circundante.</li>
+	<li>Redes de comunicación dentro de la región y hacia fuera de ella. Las redes de comunicación e intercambio como organizadoras del espacio regional y nacional.</li>
+	<li>El territorio y su ordenamiento o planificación. Estructura del territorio regional: las relaciones entre el sistema natural y el sistema social. El sistema natural como soporte, facilitador y limitante para el uso por la sociedad: relaciones de adecuación e impacto.</li>
+	<li>Territorio nacional continental, insular y marítimo y su división político-administrativa. El concepto de región.</li></ul>
+Sistema económico nacional:
+	<ul><li>Geografía económica de Chile: recursos naturales; actividades económicas de la población, división del trabajo; concepto de interdependencia económica; ventajas comparativas.</li>
+	<li>El problema de la escasez: recursos escasos para satisfacer necesidades ilimitadas y necesidad de elección. El problema de la escasez y asignación de recursos en el nivel familiar.</li>
+	<li>El problema de la distribución de los bienes: la desigualdad económica en la nación y entre naciones.</li>
+	<li>El problema de la coordinación económica: principales mecanismos, tales como el mercado, las instituciones y el Estado.</li>
+	<li>El sistema económico nacional: el rol del Estado y del mercado. Presupuesto fiscal: obtención y asignación de recursos del Estado. El concepto de política económica.</li>
+	<li>Economía y trabajo: institucionalidad, derechos y prácticas laborales.</li>
+	<li>Dificultades de la economía nacional: problemas económicos nacionales a través de distintas fuentes de información.</li></ul>
+Chile en el mundo:
+	<ul><li>Principales lineamientos de las relaciones exteriores del país. Intercambio y cooperación con los países vecinos, con los de América Latina y del resto del mundo.</li>
+	<li>Relaciones económicas internacionales de Chile y su participación en bloques económicos.</li>
+	<li>Tratados internacionales sobre derechos humanos, igualdad de oportunidades para mujeres y hombres, preservación del medio ambiente y superación de la pobreza.</li></ul>
+América Latina contemporánea:
+	<ul><li>Geografía física y humana de América Latina: climas y relieves; regiones; población; zonas económicas.</li>
+	<li>Chile y América Latina: elementos económicos, sociales, políticos y culturales comunes.</li></ul>
+El mundo contemporáneo:
+	<ul><li>Regiones del mundo: características geográficas, demográficas, económicas, políticas y culturales de las grandes regiones geopolíticas que conforman el mundo actual.</li>
+	<li>Relaciones de influencia, cooperación y conflicto entre regiones y naciones.</li>
+	<li>La globalización de la economía: principales cambios experimentados en la economía mundial en las últimas décadas, con referencia al proceso de internacionalización de la producción y de las finanzas, la transnacionalización del capital, la liberalización del comercio de bienes y servicios. Interdependencia económica entre las naciones.</li>
+	<li>Revolución tecnológica e informática: el desarrollo de la tecnología y de los sistemas de comunicación y su impacto en la organización laboral y en la tendencia a la globalización mundial.</li>
+	<li>La sociedad contemporánea: análisis de algunos de sus principales rasgos, tales como: la masificación y democratización, la transformación en la inserción social de las mujeres, la creciente autonomía de los jóvenes, el derrumbe de las utopías sociales y el fortalecimiento de la religiosidad.</li>
+	<li>La pobreza y el deterioro medio ambiental como grandes problemas de orden mundial: características del problema a través de resoluciones internacionales correspondientes.</li></ul>
+<p>Raíces históricas de Chile</p>
+Construcción de una Identidad Mestiza:
+	<ul><li>América Precolombina. Las grandes civilizaciones precolombinas. Los pueblos prehispánicos en el actual territorio chileno.</li>
+	<li>La conquista española. Principales características y propósitos de la empresa de conquista de los españoles en América y sus efectos para los pueblos indígenas. La conquista de Chile: la ocupación del territorio.</li>
+	<li>Relaciones entre españoles e indígenas: trabajo obligatorio, mestizaje, evangelización, sincretismo cultural y resistencia mapuche.</li>
+	<li>El legado español nos inserta en Occidente: la herencia cultural de España. La institucionalidad española en América. La sociedad colonial en Chile.</li></ul>
+La creación de una Nación:
+	<ul><li>La independencia americana: múltiples factores que precipitaron el proceso independentista en América y Chile; condiciones estructurales y acciones individuales; voluntad humana y azar.</li>
+	<li>La organización de la República de Chile: elementos de continuidad y cambio luego de la independencia en lo político, económico, social, religioso y cultural. Dificultades para organizar la naciente República. Diversos ensayos de organización política. La solución portaliana.</li>
+	<li>La hegemonía liberal: El pensamiento liberal en Chile. La eclosión cultural de la década de 1840. El desarrollo educacional. La liberalización de las instituciones: conflictos con el autoritarismo presidencial. La secularización de las instituciones: conflictos entre la Iglesia y el Estado.</li>
+	<li>La expansión de la economía y del territorio: expansión y modernización de la economía chilena desde la Independencia hasta la Guerra del Pacífico. Las guerras del siglo XIX entre Chile y Perú-Bolivia. Incorporación de la Araucanía. Delimitación de las fronteras de Chile en el siglo XIX.</li>
+	<li>Elementos que caracterizan la experiencia histórica de Chile en el siglo XIX.</li></ul>
+La Sociedad Finisecular: auge y crisis del liberalismo:
+	<ul><li>La economía del salitre: la riqueza salitrera dinamiza al conjunto de la economía. Rol del Estado en la distribución de la riqueza del salitre. Inversiones públicas en vías de comunicación, infraestructura y educación.</li>
+	<li>La "cuestión social". Condiciones de vida de hombres y mujeres en las salitreras, los puertos, las ciudades y los campos. Las nuevas organizaciones de trabajadores. Preocupación entre intelectuales, universitarios, eclesiásticos y políticos por las condiciones de vida de los sectores populares. Soluciones propuestas.</li>
+	<li>Crisis política. La Guerra Civil de 1891 vista a través de interpretaciones historiográficas divergentes. El parlamentarismo: balance de virtudes y debilidades.</li>
+	<li>Las transformaciones culturales: avances en educación, vida urbana y nuevas creaciones intelectuales.</li></ul>
+El siglo XX: la búsqueda del desarrollo económico y de la justicia social:
+	<ul><li>El fin de una época: fin del parlamentarismo, surgimiento de populismos, gobiernos militares, nuevos partidos políticos, nuevos actores sociales. Fin del ciclo del salitre. La creciente influencia económica, cultural y política de los Estados Unidos y su proyección hacia el resto del siglo. La Crisis Económica de 1929 y sus efectos en Chile. Nuevas corrientes de pensamiento disputan la hegemonía al liberalismo.</li>
+	<li>El nuevo rol del Estado a partir de la década de 1920: el Estado de bienestar; la sustitución de importaciones como modelo económico, sus logros y debilidades. La crisis del modelo a mediados de siglo, efectos sociales.</li>
+	<li>Los nuevos proyectos políticos: la reformulación del sistema de partidos a fines de la década de 1950. Los nuevos proyectos de desarrollo y su implementación política. Ampliación del sufragio.</li>
+	<li>Cambios políticos, sociales, económicos y culturales de Chile desde la década de 1970 a la actualidad.</li></ul>
+Institucionalidad Política:
+	<ul><li>Instituciones del gobierno regional; instituciones existentes en la localidad: culturales y económicas, públicas y privadas; sociales no gubernamentales (sindicatos, clubes, organizaciones de mujeres, juntas de vecinos, etc.)</li>
+	<li>Conformación de los poderes públicos regionales y formas de participación política de la ciudadanía.</li>
+	<li>La regionalización en una institucionalidad unitaria; organización política del Estado: poderes públicos, derechos y deberes ciudadanos.</li>
+	<li>Conceptos de soberanía y representación política democrática.</li>
+	<li>Conceptos de nación, Estado, gobierno y régimen político.</li></ul>
+<p>El legado histórico de occidente</p>
+La diversidad de civilizaciones:
+	<ul><li>Las primeras expresiones culturales de la Humanidad. Noción de evolución. Línea de tiempo con las grandes etapas e hitos de la historia cultural de la Humanidad.</li>
+	<li>Mapa cultural mundial: identificación y localización espacial y temporal de las grandes civilizaciones de la historia.</li></ul>
+La herencia clásica: Grecia y Roma como cuna de la Civilización Occidental:
+	<ul><li>El legado cultural del mundo clásico: la lengua, la filosofía, la ciencia y las expresiones artísticas.</li>
+	<li>Conceptos políticos fundamentales de la Grecia clásica aún vigentes, tales como ciudadanía, democracia, tiranía y política; el papel de la ciudad en la configuración de la vida política occidental.</li>
+	<li>El Estado romano como modelo político y administrativo; conceptos de imperio e imperialismo. Conceptos fundamentales del Derecho Romano vigentes en el sistema jurídico chileno.</li></ul>
+La Europa medieval y el Cristianismo:
+	<ul><li>La Edad Media y el origen de la idea de "Europa"; estudio político y lingüístico del mapa europeo actual y su correlación con la era medieval.</li>
+	<li>El cristianismo en la conformación religiosa y cultural de Europa; la visión cristiana de mundo como elemento unificador de la Europa medieval; la importancia política del Papado y la diferenciación del poder temporal y el poder espiritual; el conflicto entre la Cristiandad y el Islam, sus proyecciones hacia el presente.</li>
+	<li>Organización social de Europa medieval: conceptos de feudalismo, vasallaje y servidumbre; la Europa medieval como modelo de sociedad rural. La ciudad y los orígenes del capitalismo.</li></ul>
+El Humanismo y el desarrollo del pensamiento científico:
+	<ul><li>El humanismo: una nueva visión del ser humano. Sus fundamentos e implicancias: el ser humano como dominador de la naturaleza y como creador de la sociedad. La creatividad artística del Renacimiento.</li>
+	<li>Los descubrimientos científicos de los siglos XVI al XVIII y sus efectos en la vida material y cultural de Europa, considerando los cambios en la vida cotidiana y en las visiones de mundo; el concepto de "razón" y sus efectos en el mundo moderno.</li>
+	<li>Ruptura de la unidad religiosa: Reforma y Contrarreforma; secularización de la vida social y cultural.</li>
+	<li>La expansión colonial europea. La inserción de América en el mundo occidental: beneficios y problemas.</li></ul>
+La era de las revoluciones y la conformación del mundo contemporáneo:
+	<ul><li>La Revolución Industrial y la madurez del capitalismo; efectos en la vida de las personas: oportunidades y contradicciones; las clases sociales y sus conflictos.</li>
+	<li>La Revolución Francesa como respuesta al absolutismo monárquico y origen de la política moderna: visiones e interpretaciones diversas; el legado político-ideológico de la Ilustración; proyecciones de la Revolución Francesa: las revoluciones liberales del siglo XIX y la formación de los Estados nacionales en Europa; el pensamiento socialista y social-cristiano.</li>
+	<li>El nuevo imperialismo europeo como consecuencia de la Revolución Industrial: su expresión geográfica, económica y cultural; el impacto recíproco entre Europa y otras culturas no occidentales.</li>
+	<li>Vida cotidiana y cultura en Europa finisecular: explosión demográfica, urbanización y avance de la cultura ilustrada.</li>
+	<li>Europa en crisis: las guerras mundiales, la Revolución Rusa, el comunismo, el fascismo y la Gran Depresión.</li></ul>
+El orden mundial posterior a la Segunda Guerra Mundial: antecedentes para la comprensión del orden mundial actual:
+	<ul><li>Consecuencias de la Segunda Guerra Mundial: reordenamiento de los bloques políticos y descolonización.</li>
+	<li>La Guerra Fría: capitalismo y socialismo. Las relaciones entre EE.UU. y la Unión Soviética. La formación del bloque socialista. Las características del mundo bipolar.</li>
+	<li>De un mundo bipolar a un mundo multipolar: el papel de Europa, China y Japón. Los países no-alineados y el Tercer Mundo.</li>
+	<li>La caída del muro: el fin del bloque socialista, la transformación de los Estados de Europa Oriental y el socialismo.</li>
+	<li>El ascenso del neoliberalismo en la década de 1980: Estados Unidos, Inglaterra y América Latina.</li>
+	<li>Efectos de estos procesos históricos mundiales en Chile.</li></ul>
+América Latina contemporánea:
+	<ul><li>América Latina en la segunda mitad del siglo XX: sus desafíos y frustraciones; la búsqueda del desarrollo y de la equidad; masificación y urbanización acelerada; cosmopolitismo e indigenismo; sus relaciones con Estados Unidos; revoluciones, reformas, gobiernos autoritarios y procesos de redemocratización.</li></ul>
+Para más información, visita <a href="http://demre.cl/temario_hycsoc_p2014.htm">este</a> enlace.<br><br>
+</span>
+<br><br><br><br><br><br></div>
+		<!--  Fin de Temario -->
+
+		<!-- Inicio de Calendario -->
+    <div id="Calendar" style="display:none"><p>
+		Demre no ha publicado las fechas importantes para el proceso de admisión 2015 (PSU a rendir el año 2014). A continuación cuentas con las <b>fechas del proceso anterior</b>.<br><br>
+		<table> <!-- En caso de querer añadir bordes a la tabla, añadir border="1" -->
+			<tr> <!-- Inicio linea -->
+				<td>Inicio</td> <!-- Primera columna de la linea -->
+				<td>Término</td>
+				<td> </td>
+			</tr> <!-- Fin de linea -->
+			<tr>
+				<td>30 de mayo </td>
+				<td>19 de diciembre </td>
+				<td>Publicaciones PSU en El Mercurio</td>
+			</tr>
+			<tr>
+				<td>1 de julio </td>
+				<td>19 de agosto </td>
+				<td>Inscripciones PSU</td>
+			</tr>
+			<tr>
+				<td>20 de septiembre </td>
+				<td>4 de octubre </td>
+				<td>Periodo extraordinario de inscripciones</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td>11 de octubre </td>
+				<td>Límite de modificaciones a la prueba electiva/comuna de rendición</td>
+			</tr>
+			<tr>
+				<td>21 de noviembre </td>
+				<td> </td>
+				<td>Publicación locales de rendición</td>
+			</tr>
+			<tr>
+				<td>1 de diciembre </td>
+				<td>17:00 - 19:00 </td>
+				<td>Reconocimiento de salas</td>
+			</tr>
+			<tr>
+				<td>2 de diciembre </td>
+				<td>9:00 hrs </td>
+				<td>Prueba de Lenguaje y comunicación</td>
+			</tr>
+			<tr>
+				<td>2 de diciembre </td>
+				<td>14:30 hrs </td>
+				<td>Prueba de Ciencias</td>
+			</tr>
+			<tr>
+				<td>3 de diciembre </td>
+				<td>9:00 hrs </td>
+				<td>Prueba de Matemática</td>
+			</tr>
+			<tr>
+				<td>3 de diciembre </td>
+				<td>14:30 hrs </td>
+				<td>Prueba de Historia y ciencias sociales</td>
+			</tr>
+			<tr>
+				<td>28 de diciembre </td>
+				<td>8:00 hrs </td>
+				<td>Publicación de resultados</td>
+			</tr>
+			<tr>
+				<td>28 de diciembre 9:00 </td>
+				<td>31 de diciembre 13:00 </td>
+				<td>Periodo de postulación</td>
+			</tr>
+			<tr>
+				<td>12 de enero </td>
+				<td>23:00 hrs </td>
+				<td>Publicación de los resultados de selección</td>
+			</tr>
+			<tr>
+				<td>13 de enero </td>
+				<td>22 de enero </td>
+				<td>Periodo de matrículas</td>
+			</tr>
+		</table></p>
+<br><br><br><br><br><br></div>
+		<!--  Fin de Calendario -->
+
+		<!-- Inicio de Calculadora -->
+    <div id="Calc" style="display:none"><p>
+		<h2>Calcula un puntaje estimado para tu postulación</h2>
+Lenguaje:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <input size="7" maxlength="3" placeholder="Ej: 850" type="text" name="PunLeng" id="PunLeng" >
+&nbsp&nbspPonderación: <input size="7" maxlength="3" placeholder="Ej: 20" type="text" name="PonLeng" id="PonLeng" ><br>
+Matemática:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <input size="7" maxlength="3" placeholder="Ej: 850" type="text" name="PunMate" id="PunMate" >
+&nbsp&nbspPonderación: <input size="7" maxlength="3" placeholder="Ej: 25" type="text" name="PonMate" id="PonMate" ><br>
+Ciencias/Historia:&nbsp&nbsp&nbsp
+ <input size="7" maxlength="3" placeholder="Ej: 850" type="text" name="PunCien" id="PunCien" >
+&nbsp&nbspPonderación: <input size="7" maxlength="3" placeholder="Ej: 30" type="text" name="PonCien" id="PonCien" ><br>
+NEM:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <input size="7" maxlength="3" placeholder="Ej: 850" type="text" name="PunNEM" id="PunNEM" >
+&nbsp&nbspPonderación: <input size="7" maxlength="3" placeholder="Ej: 10" type="text" name="PonNEM" id="PonNEM" ><br>
+Ranking:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <input size="7" maxlength="3" placeholder="Ej: 850" type="text" name="PunRank" id="PunRank" >
+&nbsp&nbspPonderación: <input size="7" maxlength="3" placeholder="Ej: 15" type="text" name="PonRank" id="PonRank" ><br><br><br>
+<button id="Calcular">Calcular</button>
+<div id="resultado"></div>
+<br><br><br><br><br><br></p></div>
+		<!--  Fin de Calculadora -->
+		
+		<!-- Inicio de Info -->
+    <div id="Info" style="display:none"><p>
+		versión 2014 (PSUfox) rev01 por <a href="http://www.ravmn.cl">ravmn</a> - admisión 2015<br><br>
+		Datos tomados de <a href="http://www.demre.cl">Demre.cl</a> - Fono Demre: +56 2 2978 3806<br>
+		Los datos de esta app puede estar erróneos. Es responsabilidad del usuario verificarlos directamente en una fuente oficial como "Demre.cl" o "El Mercurio").<br><br>
+		La PSU es una prueba de alternativas realizada por el Demre desde el año 2003 para hacer mediciones del "conocimiento" de los postulantes a las universidades. Ésta consta de 4 pruebas, siendo Lenguaje y Matemática obligatorias y Ciencias e Historia electivas.<br><br>
+		Revisa la escala de <b>conversión de notas a puntaje</b> PSU <a href="http://demre.cl/doc_tec_escala_notas.htm">aquí</a>.<br><br>
+		El Demre en este momento no tiene abierto al público el <b>simulador de Puntaje Ranking</b>, pero este debe ser igual o superior a tu puntaje NEM para la admisión 2015. Para saber más, consulta <a href="http://www.demre.cl/ranking_colegios/normativa.htm">aquí</a>.<br><br><br><br><br><br></p></div>
+		<!--  Fin de Info -->
+
+    <footer>
+		<!-- Inicio de la Toolbar -->
+        <div role="toolbar">
+        <ul><li><button class="twitter" onclick='changeTwitter()'>Twitter</button></li>
+                <li><button class="temario" onclick='changeTemario()'>Temario</button></li>
+                <li><button class="calendario" onclick='changeCalendar()'>Calendario</button></li>
+                <li><button class="calculadora" onclick='changeCalc()'>Calculadora</button></li></ul>
+                <ul><li><button class="info" onclick='changeInfo()'>Info</button></li></ul>
+        </div>
+		<!-- Fin de la Toolbar -->
+    </footer>
+
+    <script type="text/javascript" src="js/base.js"></script>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    
+<script type="text/javascript">
+function changeTwitter(){
+	var twitter = document.getElementById('Twitter');
+	var temario = document.getElementById('Temario');
+	var calendar = document.getElementById('Calendar');
+	var calc = document.getElementById('Calc');
+	var info = document.getElementById('Info');
+twitter.style.display = 'block';
+temario.style.display = 'none';
+calendar.style.display = 'none';
+calc.style.display = 'none';
+info.style.display = 'none';
+}</script>
+
+<script type="text/javascript">
+function changeTemario(){
+	var twitter = document.getElementById('Twitter');
+	var temario = document.getElementById('Temario');
+	var calendar = document.getElementById('Calendar');
+	var calc = document.getElementById('Calc');
+	var info = document.getElementById('Info');
+twitter.style.display = 'none';
+temario.style.display = 'block';
+calendar.style.display = 'none';
+calc.style.display = 'none';
+info.style.display = 'none';
+}</script>
+
+<script type="text/javascript">
+function changeCalendar(){
+	var twitter = document.getElementById('Twitter');
+	var temario = document.getElementById('Temario');
+	var calendar = document.getElementById('Calendar');
+	var calc = document.getElementById('Calc');
+	var info = document.getElementById('Info');
+twitter.style.display = 'none';
+temario.style.display = 'none';
+calendar.style.display = 'block';
+calc.style.display = 'none';
+info.style.display = 'none';
+}</script>
+
+<script type="text/javascript">
+function changeCalc(){
+	var twitter = document.getElementById('Twitter');
+	var temario = document.getElementById('Temario');
+	var calendar = document.getElementById('Calendar');
+	var calc = document.getElementById('Calc');
+	var info = document.getElementById('Info');
+twitter.style.display = 'none';
+temario.style.display = 'none';
+calendar.style.display = 'none';
+calc.style.display = 'block';
+info.style.display = 'none';
+}</script>
+
+<script type="text/javascript">
+function changeInfo(){
+	var twitter = document.getElementById('Twitter');
+	var temario = document.getElementById('Temario');
+	var calendar = document.getElementById('Calendar');
+	var calc = document.getElementById('Calc');
+	var info = document.getElementById('Info');
+twitter.style.display = 'none';
+temario.style.display = 'none';
+calendar.style.display = 'none';
+calc.style.display = 'none';
+info.style.display = 'block';
+}</script>
+
+<!--  Inicio de calculos -->
+<script>
+$(document).on('click','#Calcular',function(){
+    var PuLeng = $("#PunLeng").val();
+    var PoLeng = $("#PonLeng").val();
+    var PuMate = $("#PunMate").val();
+    var PoMate = $("#PonMate").val();
+    var PuCien = $("#PunCien").val();
+    var PoCien = $("#PonCien").val();
+    var PuNEM = $("#PunNEM").val();
+    var PoNEM = $("#PonNEM").val();
+    var PuRank = $("#PunRank").val();
+    var PoRank = $("#PonRank").val();
+	var Suma = (PuLeng*PoLeng)+(PuMate*PoMate)+(PuCien*PoCien)+(PuNEM*PoNEM)+(PuRank*PoRank);
+	var Final = (Suma/100)
+$("#resultado").html("Según lo que pusiste, tu puntaje ponderado sería: " + Final.toFixed(0));
+ });
+</script>
+		<!--  Fin de calculos -->
+
+</body>
+</html>
