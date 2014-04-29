@@ -1,7 +1,8 @@
 {
   "name": "Mi PSU",
-  "launch_path": "/index.html",
   "description": "App para tener la información sobre la PSU siempre a mano",
+  "launch_path": "/index.html",
+  "version": "1.0.8",
   "icons": {
     "30": "/images/logo30.png",
     "60": "/images/logo60.png",
