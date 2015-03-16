@@ -1,0 +1,1 @@
+App básica para Firefox OS relacionada a la Prueba de Selección Universitaria chilena.
